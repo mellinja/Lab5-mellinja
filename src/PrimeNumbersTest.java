@@ -27,7 +27,7 @@ public class PrimeNumbersTest {
 		assertEquals(test, PrimeNumbers.generatePrimeNumbers(3));
 		
 	}
-	
+
 	@Test
 	public void testFour()
 	{
@@ -35,6 +35,15 @@ public class PrimeNumbersTest {
 		test.add(2); 
 		test.add(2); 
 		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(4); 
+		assertEquals(test, PrimeHolder); 
+	}
+	@Test
+	public void testSix()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>(); 
+		test.add(2); 
+		test.add(3); 
+		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(6); 
 		assertEquals(test, PrimeHolder); 
 	}
 	
