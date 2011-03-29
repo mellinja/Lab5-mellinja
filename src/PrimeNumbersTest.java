@@ -20,6 +20,15 @@ public class PrimeNumbersTest {
 		assertEquals(test, PrimeNumbers.generatePrimeNumbers(2));
 		
 	}
+	@Test
+	public void testThree(){
+		ArrayList<Integer> test = new ArrayList<Integer>();
+		test.add(3);
+		assertEquals(test, PrimeNumbers.generatePrimeNumbers(3));
+		
+	}
+	
+	
 	
 	
 	
