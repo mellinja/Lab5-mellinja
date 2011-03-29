@@ -12,7 +12,6 @@ public class PrimeNumbers {
 			if ((i%x)==0)
 			{
 				i = i/x; 
-		
 				Primes.add(x); 
 				x = 1; 
 			}
