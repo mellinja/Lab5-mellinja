@@ -20,7 +20,11 @@ public class PrimeNumbers {
 	}
 
 	public static ArrayList<Integer> generator(int i) {
-		return new ArrayList<Integer>();
+		ArrayList<Integer> Primes = new ArrayList<Integer>();
+		if (i > 2){	
+			Primes.add(2);
+		}
+		return Primes;
 	}
 
 /*	private static ArrayList<Integer> generateFactors (int i)

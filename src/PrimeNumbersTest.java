@@ -104,7 +104,7 @@ public class PrimeNumbersTest {
 	{
 		ArrayList<Integer>test = new ArrayList<Integer>();
 		test.add(2);
-		assertEquals(test,PrimeNumbers.generator(2)); 
+		assertEquals(test,PrimeNumbers.generator(3)); 
 	}
 	
 	
