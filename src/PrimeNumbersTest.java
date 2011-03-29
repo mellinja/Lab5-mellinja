@@ -78,7 +78,7 @@ public class PrimeNumbersTest {
 		test.add(7);
 		test.add(7);
 		test.add(1327);
-		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(312115); 
+		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(325115); 
 		assertEquals(test, PrimeHolder); 
 	}
 	
