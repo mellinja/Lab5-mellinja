@@ -82,6 +82,14 @@ public class PrimeNumbersTest {
 		assertEquals(test, PrimeHolder); 
 	}
 	
+	@Test
+	public void testOneGenerator()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>(); 
+		assertEquals(test, PrimeNumbers.generator(1));
+	
+	}
+	
 	
 	
 	

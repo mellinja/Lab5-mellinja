@@ -19,6 +19,10 @@ public class PrimeNumbers {
 		return Primes; 
 	}
 
+	public static ArrayList<Integer> generator(int i) {
+		return null;
+	}
+
 /*	private static ArrayList<Integer> generateFactors (int i)
 	{
 		ArrayList<Integer> Factors = new ArrayList<Integer>();
