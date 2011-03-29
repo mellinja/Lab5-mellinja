@@ -90,6 +90,16 @@ public class PrimeNumbersTest {
 	
 	}
 	
+	@Test
+	public void testTwoGenerator()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>(); 
+		assertEquals(test,PrimeNumbers.generator(2)); 
+	}
+	
+	
+	
+	
 	
 	
 	
