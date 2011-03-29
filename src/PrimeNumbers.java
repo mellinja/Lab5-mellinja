@@ -47,9 +47,11 @@ public class PrimeNumbers {
 	*/
 	private static boolean isPrime (int i)
 	{
-		for (int x = 1; x < i; x++)
+		System.out.println("For i = " +i);
+		for (int x = 2; x < i; x++)
 		{
-			if ((x%i)==0) return false; 
+			if((i%x)==0)return false; 
+			
 		}
 		return true; 
 	}
