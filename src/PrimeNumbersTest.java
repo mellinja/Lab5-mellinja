@@ -28,6 +28,16 @@ public class PrimeNumbersTest {
 		
 	}
 	
+	@Test
+	public void testFour()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>(); 
+		test.add(2); 
+		test.add(2); 
+		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(4); 
+		assertEquals(test, PrimeHolder); 
+	}
+	
 	
 	
 	
