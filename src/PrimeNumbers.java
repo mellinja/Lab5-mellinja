@@ -21,8 +21,12 @@ public class PrimeNumbers {
 
 	public static ArrayList<Integer> generator(int i) {
 		ArrayList<Integer> Primes = new ArrayList<Integer>();
-		if (i > 2){	
-			Primes.add(2);
+		for(int x = 2; x < i; x++)
+		{
+			if(isPrime(x))
+			{
+				Primes.add(x); 
+			}
 		}
 		return Primes;
 	}
@@ -40,6 +44,7 @@ public class PrimeNumbers {
 		return Factors; 
 	}
 	
+	*/
 	private static boolean isPrime (int i)
 	{
 		for (int x = 1; x < i; x++)
@@ -49,5 +54,5 @@ public class PrimeNumbers {
 		return true; 
 	}
 	
-	*/
+	
 }
