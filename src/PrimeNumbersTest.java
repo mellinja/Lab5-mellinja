@@ -56,6 +56,8 @@ public class PrimeNumbersTest {
 		ArrayList<Integer>PrimeHolder = PrimeNumbers.generatePrimeNumbers(8); 
 		assertEquals(test, PrimeHolder); 
 	}
+	
+	
 	@Test
 	public void testNine()
 	{
