@@ -125,6 +125,17 @@ public class PrimeNumbersTest {
 		assertEquals(test, PrimeNumbers.generator(5)); 
 	}
 	
+	@Test
+	public void test10Generator()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>();
+		test.add(2);
+		test.add(3);
+		test.add(5);
+		test.add(7);
+		assertEquals(test, PrimeNumbers.generator(10)); 
+	}
+	
 	
 	
 	
