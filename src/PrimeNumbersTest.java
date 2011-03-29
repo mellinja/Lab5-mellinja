@@ -97,6 +97,14 @@ public class PrimeNumbersTest {
 		assertEquals(test,PrimeNumbers.generator(2)); 
 	}
 	
+	@Test
+	public void testThreeGenerator()
+	{
+		ArrayList<Integer>test = new ArrayList<Integer>();
+		test.add(2);
+		assertEquals(test,PrimeNumbers.generator(2)); 
+	}
+	
 	
 	
 	
